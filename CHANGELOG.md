@@ -2,10 +2,12 @@
 
 All notable changes to TabPFN are documented here.
 
-## [2.0.7] - 2025
+## [2.0.7] - 2025-03-24
 
 ### Fixed
-- Various bug fixes and stability improvements.
+- Improved robustness of model weight loading and caching.
+- Fixed compatibility issues with newer versions of scikit-learn and PyTorch.
+- Resolved edge cases in preprocessing pipeline for datasets with extreme class imbalance.
 
 ## [2.0.0] - 2025-01-09
 
